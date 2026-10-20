@@ -21,7 +21,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${poppins.variable} ${robotoMono.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col bg-[#101111]">{children}</body>
+      <body className="flex min-h-full min-w-screen flex-col bg-[#101111]">{children}</body>
     </html>
   );
 }

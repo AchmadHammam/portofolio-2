@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function ContactMe() {
   return (
-    <section>
+    <section id="contact">
       <div className="grid grid-cols-2">
         <div>
           <h1 className="text-[40px]">Have idea about project?</h1>

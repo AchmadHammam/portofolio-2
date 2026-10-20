@@ -9,7 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@iconify-react/streamline-logos": "gitlab:iconify-icons/react#streamline-logos",
     "@iconify/react": "^6.0.2",
     "next": "16.4.0",
     "react": "19.3.0",

@@ -1,12 +1,12 @@
 export function Project() {
   return (
-    <section className="py-22.75">
+    <section className="py-22.75" id="project">
       <div className="relative">
-        <p className="pb-22.75 text-[40px] text-white">
+        <p className="text-3xl pb-12.75 text-white xl:pb-22.75 xl:text-[40px]">
           Some Featured Projects
         </p>
-        <div className="grid grid-cols-2 items-start rounded bg-[#151515] py-13.75">
-          <div className="flex h-[545.5px] w-[545.5px] flex-col items-start justify-center bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-8 text-base font-medium text-black shadow-md shadow-white">
+        <div className="flex flex-col-reverse items-start justify-start gap-10 rounded bg-[#151515] py-13.75 xl:grid xl:grid-cols-2 xl:gap-0">
+          <div className="flex h-79 w-82.25 flex-col items-start justify-center bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-8 text-[12px] font-medium text-black shadow-md shadow-white xl:h-[545.5px] xl:w-[545.5px] xl:text-base">
             <p>
               Developed an integrated Human Resource System (HRS) that
               streamlines employee attendance, attendance reporting, and payroll
@@ -31,20 +31,20 @@ export function Project() {
               Mobile App Link
             </a>
           </div>
-          <div className="flex flex-col items-start justify-center gap-5 self-center">
+          <div className="flex flex-row items-center justify-center gap-5 xl:flex-col xl:items-start xl:self-center">
             <div className="flex size-13.25 items-center justify-center rounded-full border border-[#777] bg-linear-to-b from-[#777] via-[#383838] to-[#1E1E1E] font-semibold text-white shadow-inner">
-              <p className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-2xl font-bold text-transparent">
+              <p className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-lg font-bold text-transparent xl:text-2xl">
                 1
               </p>
             </div>
 
-            <div className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-2xl font-bold text-transparent">
+            <div className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-lg font-bold text-transparent xl:text-2xl">
               Mobile HRS System
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 items-start rounded bg-[#151515] py-13.75">
-          <div className="flex h-[545.5px] w-[545.5px] flex-col items-start justify-center bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-8 text-base font-medium text-black shadow-md shadow-white">
+        <div className="flex flex-col-reverse items-start justify-start gap-10 rounded bg-[#151515] py-13.75 xl:grid xl:grid-cols-2 xl:gap-0">
+          <div className="flex h-79 w-82.25 flex-col items-start justify-center bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-8 text-[12px] font-medium text-black shadow-md shadow-white xl:h-[545.5px] xl:w-[545.5px] xl:text-base">
             <p>
               Developed a job portal that connects job seekers with companies
               through an easy-to-use platform.
@@ -73,20 +73,20 @@ export function Project() {
               Mobile App Link
             </a>
           </div>
-          <div className="flex flex-col items-start justify-center gap-5 self-center">
+          <div className="flex flex-row items-center justify-center gap-5 xl:flex-col xl:items-start xl:self-center">
             <div className="flex size-13.25 items-center justify-center rounded-full border border-[#777] bg-linear-to-b from-[#777] via-[#383838] to-[#1E1E1E] font-semibold text-white shadow-inner">
-              <p className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-2xl font-bold text-transparent">
+              <p className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-lg font-bold text-transparent xl:text-2xl">
                 2
               </p>
             </div>
 
-            <div className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-2xl font-bold text-transparent">
+            <div className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-lg font-bold text-transparent xl:text-2xl">
               Mobile Report and Guest Book System
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 items-start rounded bg-[#151515] py-13.75">
-          <div className="flex h-[545.5px] w-[545.5px] flex-col items-start justify-center bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-8 text-base font-medium text-black shadow-md shadow-white">
+        <div className="flex flex-col-reverse items-start justify-start gap-10 rounded bg-[#151515] py-13.75 xl:grid xl:grid-cols-2 xl:gap-0">
+          <div className="flex h-79 w-82.25 flex-col items-start justify-center bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-8 text-[12px] font-medium text-black shadow-md shadow-white xl:h-[545.5px] xl:w-[545.5px] xl:text-base">
             <p>
               Developed a job portal that connects job seekers with companies
               through an easy-to-use platform.
@@ -111,20 +111,20 @@ export function Project() {
             </a>
           </div>
 
-          <div className="flex flex-col items-start justify-center gap-5 self-center">
+          <div className="flex flex-row items-center justify-center gap-5 xl:flex-col xl:items-start xl:self-center">
             <div className="flex size-13.25 items-center justify-center rounded-full border border-[#777] bg-linear-to-b from-[#777] via-[#383838] to-[#1E1E1E] font-semibold text-white shadow-inner">
-              <p className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-2xl font-bold text-transparent">
+              <p className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-lg font-bold text-transparent xl:text-2xl">
                 3
               </p>
             </div>
 
-            <div className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-2xl font-bold text-transparent">
+            <div className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-lg font-bold text-transparent xl:text-2xl">
               Portal Job Aplication
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 items-start rounded bg-[#151515] py-13.75">
-          <div className="flex h-[545.5px] w-[545.5px] flex-col items-start justify-center bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-8 text-base font-medium text-black shadow-md shadow-white">
+        <div className="flex flex-col-reverse items-start justify-start gap-10 rounded bg-[#151515] py-13.75 xl:grid xl:grid-cols-2 xl:gap-0">
+          <div className="flex h-79 w-82.25 flex-col items-start justify-center bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-8 text-[12px] font-medium text-black shadow-md shadow-white xl:h-[545.5px] xl:w-[545.5px] xl:text-base">
             <p>
               Developed a survey review application that turns field survey
               findings into clear, shareable PDF reports.
@@ -146,14 +146,14 @@ export function Project() {
             </p>
             <p className="mt-4">Fully built with Next.js.</p>
           </div>
-          <div className="flex flex-col items-start justify-center gap-5 self-center">
+          <div className="flex flex-row items-center justify-center gap-5 xl:flex-col xl:items-start xl:self-center">
             <div className="flex size-13.25 items-center justify-center rounded-full border border-[#777] bg-linear-to-b from-[#777] via-[#383838] to-[#1E1E1E] font-semibold text-white shadow-inner">
-              <p className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-2xl font-bold text-transparent">
+              <p className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-lg font-bold text-transparent xl:text-2xl">
                 4
               </p>
             </div>
 
-            <div className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-2xl font-bold text-transparent">
+            <div className="bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-lg font-bold text-transparent xl:text-2xl">
               Report survey applications
             </div>
           </div>
