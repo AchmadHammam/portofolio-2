@@ -27,17 +27,17 @@ export function TopBar() {
     };
   }, [isOpen]);
   return (
-    <nav className="flex min-h-16 flex-row flex-nowrap items-center gap-y-3 px-4 py-3 sm:px-8 xl:justify-between xl:gap-x-4">
+    <nav className="flex min-h-16 flex-row flex-nowrap items-center justify-between gap-5 px-4 py-3">
       <h1 className="shrink-0 bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-lg font-bold text-transparent sm:text-2xl">
         Achmad Hammam
       </h1>
-      <div className="invisible flex w-full justify-center lg:visible lg:w-115 lg:flex-1">
+      <div className="hidden w-full justify-center md:flex md:w-115 md:flex-1">
         <div className="w-full rounded-3xl border-2 border-transparent bg-linear-to-r from-[#FFD49C] to-[#7A87FB] bg-origin-border lg:max-w-115">
           <div className="flex items-center justify-start rounded-[inherit] bg-[#101111] p-1">
             <div className="flex shrink-0 rounded-3xl bg-[#292929] px-4 py-3 sm:px-5">
               <HiHome className="h-4 w-4" />
             </div>
-            <div className="flex w-full items-center justify-around gap-2 px-2 py-2 text-sm text-white sm:justify-between sm:gap-10 sm:px-6 sm:text-base lg:px-9">
+            <div className="flex w-full shrink items-center gap-2 px-2 py-2 text-sm text-white sm:justify-between sm:gap-10 sm:px-6 sm:text-base lg:px-9">
               {menu.map((v, index) => (
                 <a key={index} href={v.herf}>
                   {v.label}
@@ -47,12 +47,12 @@ export function TopBar() {
           </div>
         </div>
       </div>
-      <div className="absolute right-4 flex items-center lg:hidden">
+      <div className="flex items-center md:hidden">
         <div
           onClick={() => {
             setIsOpen((prev) => !prev);
           }}
-          className="h-12 w-15 shrink-0 rounded-3xl border-2 border-transparent bg-linear-to-r from-[#FFD49C] to-[#7A87FB] bg-origin-border"
+          className="h-12 w-15 rounded-3xl border-2 border-transparent bg-linear-to-r from-[#FFD49C] to-[#7A87FB] bg-origin-border"
         >
           <div className="h-full w-full rounded-[inherit] bg-[#101111]">
             <div className="flex h-full w-full items-center justify-center rounded-[inherit] bg-[#292929] p-2 font-semibold text-white">
@@ -82,7 +82,7 @@ export function TopBar() {
       <a
         href="mailto:ahmadhammam53@gmail.com"
         target="_blank"
-        className="invisible shrink-0 rounded-3xl border-2 border-transparent bg-linear-to-r from-[#FFD49C] to-[#7A87FB] bg-origin-border lg:visible"
+        className="hidden shrink-0 rounded-3xl border-2 border-transparent bg-linear-to-r from-[#FFD49C] to-[#7A87FB] bg-origin-border md:flex"
       >
         <div className="flex items-center justify-center rounded-[inherit] bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-4 py-3 font-semibold text-black">
           Hire Me

@@ -20,10 +20,10 @@ export function ButtomBar() {
   ];
   return (
     <section className="flex h-16 w-full items-center justify-between py-16">
-      <h1 className="flex justify-start bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-2xl font-bold text-transparent">
+      <h1 className="hidden justify-start bg-linear-to-r from-[#7A87FB] to-[#FFD49C] bg-clip-text text-2xl font-bold text-transparent md:flex">
         Achmad Hammam
       </h1>
-      <div className="flex justify-center lg:w-[460pt]">
+      <div className="justify-center w-full md:flex lg:w-[460pt]">
         <div className="w-full rounded-3xl border-2 border-transparent bg-linear-to-r from-[#FFD49C] to-[#7A87FB] bg-origin-border lg:m-21">
           <div className="flex items-center justify-start rounded-[inherit] bg-[#101111] p-1">
             <div className="flex w-full items-center justify-between px-2 py-1 text-[16px] text-white sm:gap-10">
@@ -46,7 +46,7 @@ export function ButtomBar() {
         target="_blank"
         className="rounded-3xl border-2 border-transparent bg-linear-to-r from-[#FFD49C] to-[#7A87FB] bg-origin-border"
       >
-        <div className="flex h-13 w-25.75 items-center justify-center rounded-[inherit] bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-3.5 py-5 font-semibold text-black">
+        <div className="hidden h-13 w-25.75 items-center justify-center rounded-[inherit] bg-linear-to-r from-[#7A87FB] to-[#FFD49C] px-3.5 py-5 font-semibold text-black md:flex">
           Hire Me
         </div>
       </a>

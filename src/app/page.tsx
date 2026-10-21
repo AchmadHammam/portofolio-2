@@ -8,14 +8,14 @@ import Image from "next/image";
 export default function Home() {
   const whatICant = ["Next.js", "Flutter", "Laravel", ".Net"];
   return (
-    <main className="w-full py-15">
+    <main className="w-full xl:py-15">
       <div className="px-4 sm:px-6 md:px-12 xl:px-40">
         <TopBar />
       </div>
       <div className="px-4 sm:px-6 md:px-12 xl:px-40">
         <AboutMe />
       </div>
-      <div className="grid grid-cols-4 gap-x-5 border-y border-[#383838] bg-[#101010] py-3 xl:pl-41">
+      <div className="grid grid-cols-4 gap-x-5 border-y border-[#383838] bg-[#101010] py-3 md:pl-11 lg:pl-41">
         {whatICant.map((v, index) => (
           <div
             key={index}
